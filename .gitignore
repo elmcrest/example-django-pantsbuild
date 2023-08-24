@@ -1,0 +1,28 @@
+# Copyright 2021 Pants project contributors.
+# Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+# Pants workspace files
+/.pants.d/
+/dist
+/.pids
+/.pants.workdir.file_lock*
+
+Local venv for running manage.py etc.
+/.venvs
+
+# Python files
+__pycache__/
+*.pyc
+.venv/
+
+# Editors
+.idea/
+*.iml
+
+# Local databases.
+*.sqlite3
+*.sqlite3-journal
+
+# MacOS attribute files
+.DS_Store
+
